@@ -1,19 +1,24 @@
-.flexbox {
+.flexbox_translate {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 1500px;
+}
+
+.flexbox_rotate_etc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 div {
     background-color: lightseagreen;
     width: 200px;
     height: 200px;
-    margin: 5vw;
+    margin: 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
     color:bisque;
 }
 
